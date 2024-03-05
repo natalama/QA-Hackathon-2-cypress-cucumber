@@ -1,0 +1,12 @@
+{
+  "json": {
+    "enabled": true
+  },
+  "e2e": {
+    "stepDefinitions": [
+      "cypress/e2e/features/[filepart].{js,mjs,ts,tsx}",
+      "cypress/e2e/common-step-definitions/*.{js,mjs,ts,tsx}"
+    ]
+  },
+  "nonGlobalStepDefinitions": true
+}
